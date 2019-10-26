@@ -1,2 +1,12 @@
 # amazon_sponsored_product_remover
-remove amazon sponserd items
+  
+## What is this?  
+amazonのスポンサードプロダクトを表示しているページから消すChrome拡張です．  
+  
+
+## Getting Started  
+ほげほげ
+
+
+## 終わりに
+  
