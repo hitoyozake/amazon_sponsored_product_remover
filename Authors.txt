@@ -1,0 +1,6 @@
+本ライブラリは他のOSSのソースコードも一部使用しております．  
+ライセンス条項に従い権利者の名前を以下に示します(Thanks).
+
+jQuery v3.4.1 | (c) JS Foundation and other contributors | jquery.org/license
+https://jquery.com/
+
