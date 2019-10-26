@@ -1,0 +1,15 @@
+{
+  "name" : "Sample",
+  "version" : "1.0.1",
+  "manifest_version" : 2,
+  "description" : "hide sponsored product at amazon",
+  "content_scripts" : [
+    {
+      "matches" : ["https://www.amazon.co.jp/*","https://www.amazon.com/*"],
+      "js": [
+        "jquery-3.4.1.min.js",
+        "content.js"
+      ]
+    }
+  ]
+}
