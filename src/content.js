@@ -4,16 +4,17 @@ window.addEventListener("load", main, false);
 i = 0;
 
 function main(e) {
-    const jsInitCheckTimer = setInterval(jsLoaded, 4000);
+    const jsInitCheckTimer = setInterval(jsLoaded, 250);
     function jsLoaded() {
 
-      $('.sg-col-inner').remove();
-      Alert("test")
-
+      $("[data-component-type='sp-sponsored-result']").remove();
+      //$(".a-section.a-spacing-medium").remove();
+      //console.log("jsLoaded is called!")
       i += 1;
-      if(i >= 4)
+      //console.log(i);
+      if(i >= 50){
         clearInterval(jsInitCheckTimer);
-
-  //要素を取得する処理
+      }
+        
    };
 }
